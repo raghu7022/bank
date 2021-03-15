@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML FILE</title>
+    <link rel=stylesheet  href="login.css"></link>
+    <script type="text/javascript"> 
+        function login()
+            {
+            var username=document.getElementById("uname").value;
+            var password=document.getElementById("pwd").value;
+
+            if(username=="admin"&& password=="admin")
+            {
+                alert("login sucessfully");
+                window.location.href="app.html";
+            }
+            else{
+                alert("invalid username or password");
+            }  
+            }
+   </script>
+
+</head>
+
+<body>
+    <h1><img src="SBI-Logo.png" height="70px" width="120px">SBI Bank</img></h1></div>
+
+
+    <forms onsubmit="login()" action="app.html">
+        <fieldset>
+        <legend><b><i>Login</i></b></legend>
+        <label><b><u>Username:</u></b></label>
+        <input  id="uname" type="text" name="username" placeholder="Enter Username"><br><br>
+        
+        <label><b><u>Password:</u></b></label>
+        <input id="pwd" type="password" name="password" placeholder="Enter Password"><br><br>
+        <button type="submit" onclick="login()">submit</button>
+        </fieldset>
+    </forms>
+        <div class="photo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xcgZ6HsMfvSGYhuuzbn7OIODKZzn01x71Q&usqp=CAU"height="450px" width="500px"></img>
+        </div>
+        
+</body>
+</html>
