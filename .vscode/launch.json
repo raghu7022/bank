@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "open app.html",
-            "file": "D:/msp/Projects/Sample_Bank_App/SRC/App/login.html"
+            "file": "D:/msp/Projects/Sample_Bank_App/SRC/App/src/login/login.html"
             
         }
     ]
